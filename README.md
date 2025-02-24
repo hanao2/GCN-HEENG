@@ -3,6 +3,8 @@ This package (GCN-HEENG) implements a graph neural network for the prediction of
 
 The framework and results are comprehensively discussed in [my paper](https://pubs.aip.org/aip/aml/article/2/2/026103/3280563).
 
+![Alt text](doc/logo.jpg)
+
 ## Table of Contents
 
 - [Installation](#Installation)
@@ -16,6 +18,8 @@ The framework and results are comprehensively discussed in [my paper](https://pu
 - [Authors](#authors)
 - [License](#license)
 - [License and credits](#License-and-credits)
+
+
 
 ## License and credits
 This project is licensed under the GNU General Public License v3.0. See the [LICENSE](./license.txt)
