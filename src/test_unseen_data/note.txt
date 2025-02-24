@@ -1,0 +1,11 @@
+# CO
+All possible structures n multichoose k = [n-1, k]
+
+[a, b] = (a+b)! / a!b!
+
+we need a list of 27 elements:
+
+first 9: only one of them is 9, the rest are zero --> 9
+second 9: sum of the elements is 6 --> 9 multichoose 6 = [8,6]=3003
+third 9: sum of the elements is 3 --> 9 multichoose 3 = [8,3]=165
+all possible structures: 4,459,455
