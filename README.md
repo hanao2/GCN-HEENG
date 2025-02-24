@@ -21,7 +21,6 @@ The framework and results are comprehensively discussed in [my paper](https://pu
 This project is licensed under the GNU General Public License v3.0. See the [LICENSE](./license.txt)
 If you use this project in your research, please cite it as follows:
 - Hananeh Oliaei, Narayana R. Aluru. "Study of the adsorption sites of high entropy alloys for CO2 reduction using graph convolutional network" APL Machine Learning 2, 026103 (2024).
-[![https://doi.org/10.1063/5.0198043]]
 [![doi:10.1063/5.0198043](https://img.shields.io/badge/DOI-10.1063%2F5.0198043-blue)](https://doi.org/10.1063/5.0198043)
 
 
