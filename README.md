@@ -15,7 +15,7 @@ The framework and results are comprehensively discussed in [my paper](https://pu
 - [Data](#data)
 - [Authors](#authors)
 - [License](#license)
-- [License and credits](#License and credits)
+- [License and credits](#License-and-credits)
 
 ## License and credits
 This project is licensed under the GNU General Public License v3.0. See the [LICENSE](./license.txt)
