@@ -1,5 +1,5 @@
 # Adsorption Energy Prediction for High-Entropy Surfaces
-This package (GCN-HEENG) implements a graph neural network for the prediction of adsorption energies of different gas molecules, herein H and CO, onto high-entropy alloys. It constructs graphs based on the chemical environment in vicinity to the adsorbate. The training is performed in a message passing (convolution) scheme.
+This package, GCN-HEENG ( (Graph Convolutional Network-driven High-Entropy surface ENerGy prediction),), implements a graph neural network for the prediction of adsorption energies of different gas molecules, herein H and CO, onto high-entropy alloys. It constructs graphs based on the chemical environment in vicinity to the adsorbate. The training is performed in a message passing (convolution) scheme.
 
 The framework and results are comprehensively discussed in [my paper](https://pubs.aip.org/aip/aml/article/2/2/026103/3280563).
 
