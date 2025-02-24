@@ -19,7 +19,21 @@ The framework and results are comprehensively discussed in [my paper](https://pu
 - [License](#license)
 - [License and credits](#License-and-credits)
 
-
+## Installation 
+You can install the prerequisite packages in a Conda environment:
+  ```
+  conda create --name=gcn_heeng 
+  conda install python=3.9 
+  conda install numpy
+  conda install pandas
+  pip install spektral==1.0.4
+  ```
+  
+  ```
+  git clone https://github.com/moradza/Top2Phase.git
+  cd Top2Phase
+  pip3 install . # add user if you don't have user privilage --user 
+  ```
 
 ## License and credits
 This project is licensed under the GNU General Public License v3.0. See the [LICENSE](./license.txt)
