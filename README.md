@@ -3,6 +3,25 @@ This package (GCN-HEENG) implements a graph neural network for the prediction of
 
 The framework and results are comprehensively discussed in [my paper](https://pubs.aip.org/aip/aml/article/2/2/026103/3280563).
 
+## Table of Contents
+
+- [Installation](#Installation)
+- [Usage](#usage)
+  - [Trajectory to Graph](#MD-Data-Processing)
+  - [Training](#Graph-neural-network-training)
+  - [Analysis using gradient](#Saliency-Map)
+  - [Analysis using masking](#masking-Explaination)
+  - [Visualize the results](#visualize-the-results)
+- [Data](#data)
+- [Authors](#authors)
+- [License](#license)
+- [License and credits](#License and credits)
+
+## License and credits
+This project is licensed under the GNU General Public License v3.0. See the [LICENSE](./license.txt)
+If you use this project in your research, please cite it as follows:
+
+
 # GCN-for-Modeling-CO2RR-catalyst-High-Entropy-Alloys
 In the data/input folder the 'HEA_properties.csv' file contains the element intrinsic properties. the rest of the csv files within this folder are brought/downloaded from the work by Pedersen et al. on high entropy alloys. [1]
 
