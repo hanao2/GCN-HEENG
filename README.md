@@ -42,7 +42,7 @@ If you use this project in your research, please cite it as follows:
 [![doi:10.1063/5.0198043](https://img.shields.io/badge/DOI-10.1063%2F5.0198043-blue)](https://doi.org/10.1063/5.0198043)
 
 ## Data
-The [HEA_properties.csv](data/HEA_properties.csv) file contains the element intrinsic properties that are used as node features. The training [dataset](data/train) including the alloy structures and adsorption energies (for 'CO' and 'H') are utilized from [this paper] by Pedersen et al.(https://pubs.acs.org/doi/full/10.1021/acscatal.9b04343) and can be found through [this link](https://nano.ku.dk/english/research/theoretical-electrocatalysis/katladb/CO2rr-on-hea/).
+The [HEA_properties.csv](data/HEA_properties.csv) file contains the element intrinsic properties that are used as node features. The training [dataset](data/train) including the alloy structures and adsorption energies (for 'CO' and 'H') are utilized from [this paper](https://pubs.acs.org/doi/full/10.1021/acscatal.9b04343) by Pedersen et al., and can be found through [this link](https://nano.ku.dk/english/research/theoretical-electrocatalysis/katladb/CO2rr-on-hea/).
 
 <!-- 
 The src/shared folder includes scripts for 1)constructing graphs from the csv files and their corresponding featurization and 2)defining the architecture of the GCN model.
