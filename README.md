@@ -28,7 +28,6 @@ You can install the prerequisite packages in a Conda environment:
   conda install pandas=2.2.3
   conda install pytorch=2.5.1
   conda install pytorch_geometric=2.6.1
-
   ```
   
   ```
