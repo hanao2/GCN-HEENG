@@ -22,16 +22,18 @@ The framework and results are comprehensively discussed in [my paper](https://pu
 ## Installation 
 You can install the prerequisite packages in a Conda environment:
   ```
-  conda create --name=gcn_heeng 
-  conda install python=3.9 
-  conda install numpy
-  conda install pandas
-  pip install spektral==1.0.4
+  conda create --name=gcn_heeng python=3.9.21
+  conda activate gcn_heeng
+  conda install numpy=1.24.4
+  conda install pandas=2.2.3
+  conda install pytorch=2.5.1
+  conda install pytorch_geometric=2.6.1
+
   ```
   
   ```
-  git clone https://github.com/moradza/Top2Phase.git
-  cd Top2Phase
+  git clone https://github.com/hanao2/GCN-HEENG.git
+  cd GCN-HEENG
   pip3 install . # add user if you don't have user privilage --user 
   ```
 
