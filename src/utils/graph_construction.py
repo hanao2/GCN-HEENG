@@ -7,7 +7,7 @@ from torch_geometric.data import Data, DataLoader
 
 # Get the directory of the current script
 script_dir = os.path.dirname(os.path.abspath(__file__))
-data_path = os.path.join(script_dir, '../../data/input/HEA_properties.csv')
+data_path = os.path.join(script_dir, '../../data/train/HEA_properties.csv')
 
 class PrepareData:
     def __init__(self):

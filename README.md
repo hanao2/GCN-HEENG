@@ -8,15 +8,14 @@ The framework and results are comprehensively discussed in [my paper](https://pu
 ## Table of Contents
 
 - [Installation](#Installation)
-- [Usage](#usage)
+<!-- - [Usage](#usage)
   - [Trajectory to Graph](#MD-Data-Processing)
   - [Training](#Graph-neural-network-training)
   - [Analysis using gradient](#Saliency-Map)
   - [Analysis using masking](#masking-Explaination)
   - [Visualize the results](#visualize-the-results)
-- [Data](#data)
-- [Authors](#authors)
-- [License](#license)
+-->
+- [Data](#Data)
 - [License and credits](#License-and-credits)
 
 ## Installation 
@@ -42,10 +41,10 @@ If you use this project in your research, please cite it as follows:
 - Hananeh Oliaei, Narayana R. Aluru. "Study of the adsorption sites of high entropy alloys for CO2 reduction using graph convolutional network" APL Machine Learning 2, 026103 (2024).
 [![doi:10.1063/5.0198043](https://img.shields.io/badge/DOI-10.1063%2F5.0198043-blue)](https://doi.org/10.1063/5.0198043)
 
+## Data
+The [HEA_properties.csv](data/HEA_properties.csv) file contains the element intrinsic properties that are used as node features. The training [dataset](data/train) including the alloy structures and adsorption energies (for 'CO' and 'H') are utilized from [this paper] by Pedersen et al.(https://pubs.acs.org/doi/full/10.1021/acscatal.9b04343) and can be found through [this link](https://nano.ku.dk/english/research/theoretical-electrocatalysis/katladb/CO2rr-on-hea/).
 
-# GCN-for-Modeling-CO2RR-catalyst-High-Entropy-Alloys
-In the data/input folder the 'HEA_properties.csv' file contains the element intrinsic properties. the rest of the csv files within this folder are brought/downloaded from the work by Pedersen et al. on high entropy alloys. [1]
-
+<!-- 
 The src/shared folder includes scripts for 1)constructing graphs from the csv files and their corresponding featurization and 2)defining the architecture of the GCN model.
 
 The src/training folder includes scripts for training the GCN model on the constructed graphs (we trained four models with different initializations).
@@ -55,5 +54,5 @@ The src/explanation folder includes scripts for explaining the trained GCN model
 The src/test_training_data folder tests the trained GCN models on the training data which helps to visualize the GCN predictions versus DFT values (figure 2 in our manuscript).
 
 The src/test_testing_data folder tests the trained GCN models on the data not seen by them (it includes all the possible combinations of the elements) which helps to evaluate their robustness.
+-->
 
-[1]: https://pubs.acs.org/doi/full/10.1021/acscatal.9b04343
